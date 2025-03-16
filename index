@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Арена Балашиха</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на Арена Балашиха!</h1>
+        <nav>
+            <ul>
+                <li><a href="#massovoe-katanie">Массовое катание</a></li>
+                <li><a href="#hokkey">Хоккей</a></li>
+                <li><a href="#figurnoe-katanie">Фигурное катание</a></li>
+                <li><a href="#koncerty">Концерты</a></li>
+                <li><a href="#boks">Бокс</a></li>
+                <li><a href="#todes">Тодес танцы</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="massovoe-katanie">
+        <h2>Массовое катание</h2>
+        <p>Приходите на массовое катание, весело и активно проведите время!</p>
+    </section>
+
+    <section id="hokkey">
+        <h2>Хоккей</h2>
+        <p>Профессиональные хоккейные матчи и тренировки для всех возрастов.</p>
+    </section>
+
+    <section id="figurnoe-katanie">
+        <h2>Фигурное катание</h2>
+        <p>Занятия фигурным катанием для начинающих и профессионалов.</p>
+    </section>
+
+    <section id="koncerty">
+        <h2>Концерты</h2>
+        <p>Концерты известных исполнителей и групп, проводимые на арене.</p>
+    </section>
+
+    <section id="boks">
+        <h2>Бокс</h2>
+        <p>Тренировки и соревнования по боксу для различных уровней подготовки.</p>
+    </section>
+
+    <section id="todes">
+        <h2>Тодес танцы</h2>
+        <p>Занятия танцами в стиле Тодес для детей и взрослых.</p>
+    </section>
+
+    <section id="form">
+        <h2>Запишитесь на мероприятие</h2>
+        <form id="signup-form">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="phone">Ваш номер телефона:</label>
+            <input type="tel" id="phone" name="phone" required placeholder="89950546183"><br>
+
+            <label for="event">Выберите мероприятие:</label>
+            <select id="event" name="event">
+                <option value="massovoe-katanie">Массовое катание</option>
+                <option value="hokkey">Хоккей</option>
+                <option value="figurnoe-katanie">Фигурное катание</option>
+                <option value="koncerty">Концерты</option>
+                <option value="boks">Бокс</option>
+                <option value="todes">Тодес танцы</option>
+            </select><br>
+
+            <button type="submit">Записаться</button>
+        </form>
+
+        <div id="response-message"></div>
+    </section>
+
+    <section id="download">
+        <h2>Скачайте наше приложение</h2>
+        <p>Скачайте приложение *"Арена Балашиха"* и получите доступ к событиям, расписанию и многому другому.</p>
+        <div class="app-buttons">
+            <!-- Кнопка для скачивания из Google Play -->
+            <a href="https://play.google.com/store/apps/details?id=com.example.app" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Google_Play_Store_badge_EN.svg" alt="Google Play" />
+            </a>
+            <!-- Кнопка для скачивания из App Store -->
+            <a href="https://apps.apple.com/us/app/example-app/id1234567890" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Apple_App_Store_icon.svg" alt="App Store" />
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Арена Балашиха</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
